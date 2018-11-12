@@ -36,6 +36,8 @@ html, body {
     padding-bottom: 32px;
     border: 1px rgba(0, 0, 0, 0.15);
     z-index: 10;
+    position: absolute;
+    width: 84%;
   }
 
   &__modal-heading {
@@ -68,6 +70,21 @@ html, body {
   &__product-card {
     display: flex;
     flex-direction: column;
+    margin-top: 208px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 40px;
+    padding-top: 105px;
+    background-color: $white;
+  }
+
+  &__product-card-info {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  &__product-card-picture {
+    display: block;
   }
 
   &__text--grey {
