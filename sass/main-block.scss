@@ -65,6 +65,11 @@ html, body {
     border: none;
   }
 
+  &__product-card {
+    display: flex;
+    flex-direction: column;
+  }
+
   &__text--grey {
     color: $grey-font;
   }
