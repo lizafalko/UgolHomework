@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  background-color: $background;
+}
+
+.main-block {
+
+  &__container {
+    display: flex;
+    flex-direction: column;
+    margin-left: 88px;
+    margin-right: 88px;
+  }
+
+  &__modal {
+    display: flex;
+    border-radius: 8px;
+    background-color: $white;
+    box-shadow: 3px 35px 100px 5px rgba(38,156,255,.25);
+    margin-top: 96px;
+    padding-top: 32px;
+    padding-left: 40px;
+    padding-right: 8px;
+    padding-bottom: 32px;
+  }
+
+  &__modal-button {
+    width: 44%;
+    border-radius: 4px;
+    background-color: $pink;
+    color: $white;
+    padding: 12px;
+    margin-top: 16px;
+    border: none;
+  }
+}
