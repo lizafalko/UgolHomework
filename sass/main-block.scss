@@ -43,17 +43,14 @@ html, body {
   &__modal-heading {
     font-size: 24px;
     font-weight: normal;
-    font-style: normal;
-    font-stretch: normal;
     line-height: 1.33;
     letter-spacing: normal;
   }
 
   &__modal-text {
     font-weight: normal;
-    font-style: normal;
-    font-stretch: normal;
     line-height: 2;
+    font-size: 16px;
     letter-spacing: normal;
   }
 
@@ -70,6 +67,8 @@ html, body {
   &__product-card {
     display: flex;
     flex-direction: column;
+    border-radius: 4px;
+    box-shadow: 0 1px 3px 0 rgba(115, 115, 115, 0.25);
     margin-top: 208px;
     padding-left: 40px;
     padding-right: 40px;
@@ -83,8 +82,29 @@ html, body {
     flex-wrap: wrap;
   }
 
+  &__product-card-img {
+    min-width: 90%;
+    min-height: 90%;
+  }
+
   &__product-card-picture {
     display: block;
+  }
+
+  &__product-card-options {
+    display: block;
+  }
+
+  &__product-card-gallery {
+    display: inline-block;
+  }
+
+  &__product-card-part {
+    width: 58px;
+    height: 56px;
+    border-radius: 4px;
+    margin-right: 14px;
+    margin-top: 48px;
   }
 
   &__text--grey {
