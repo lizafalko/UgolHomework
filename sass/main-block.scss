@@ -89,6 +89,7 @@ html, body {
 
   &__product-card-picture {
     display: block;
+    padding-top: 80px;
   }
 
   &__product-card-options {
@@ -96,7 +97,7 @@ html, body {
   }
 
   &__product-card-gallery {
-    display: inline-block;
+    display: inline-block
   }
 
   &__product-card-part {
