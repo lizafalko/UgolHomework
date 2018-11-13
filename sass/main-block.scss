@@ -70,6 +70,7 @@ html, body {
   &__product-card {
     display: flex;
     flex-direction: column;
+    align-items: flex-start;
     border-radius: 4px;
     box-shadow: 0 1px 3px 0 rgba(115, 115, 115, 0.25);
     margin-top: 208px;
@@ -87,7 +88,15 @@ html, body {
 
   &__product-card-img {
     min-width: 80%;
-    min-height: 80%;
+  }
+
+  &__product-card-search {
+    width: 10%;
+    padding: 25px 10px;
+    border-radius: 50%;
+    background-color: $white;
+    box-shadow: 0 3px 6px 0 rgba(55, 55, 55, 0.25);
+    margin-top: 27px;
   }
 
   &__product-card-picture {
@@ -95,6 +104,8 @@ html, body {
     flex-direction: column;
     padding-top: 80px;
     min-width: 30%;
+    margin-bottom: 40px;
+    align-items: flex-end;
   }
 
   &__product-card-options {
@@ -116,10 +127,11 @@ html, body {
 
   &__product-card-options-block {
     display: block;
-    margin-right: 32px;
+    margin-right: 29px;
     margin-bottom: 32px;
-    max-width: 30%;
+    max-width: 21%;
     font-size: 16px;
+    margin-left: 29px;
   }
 
   &__product-card-options {
@@ -152,12 +164,12 @@ html, body {
     padding-left: 23px;
     padding-top: 27px;
     padding-right: 24px;
-    padding-bottom: 25px;
-    margin-bottom: 23px;
+    padding-bottom: 50px;
+    margin-bottom: 20px;
   }
 
   &__product-card-price-container {
-    min-width: 30%;
+    min-width: 29%;
   }
 
   &__product-card-price-container {
@@ -168,7 +180,7 @@ html, body {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    margin-bottom: 25px;
+    margin-bottom: 20px;
     align-items: center;
   }
 
