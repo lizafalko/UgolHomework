@@ -6,11 +6,11 @@
 * {
   margin: 0;
   padding: 0;
+  font-family: 'GraphikLCG-Regular', 'Arial', sans-serif;
 }
 
 html, body {
   background-color: $background;
-  font-family: 'GraphikLCG-Regular', 'Arial', sans-serif;
 }
 
 .main-block {
@@ -93,15 +93,13 @@ html, body {
 
   &__product-card-search {
     padding: 25px 10px;
-    // max-width: 100px;
-    // max-height: 100px;
     border-radius: 50%;
     background-color: $white;
     box-shadow: 0 3px 6px 0 rgba(55, 55, 55, 0.25);
     margin-top: 27px;
   }
 
-  &__product-card-picture {
+  &__product-card-preview {
     display: flex;
     flex-direction: column;
     padding-top: 80px;
@@ -115,16 +113,8 @@ html, body {
   }
 
   &__product-card-gallery {
-    display: inline-block
-  }
-
-  &__product-card-part {
-    width: 58px;
-    height: 56px;
-    border-radius: 4px;
-    margin-right: 14px;
+    display: inline-block;
     margin-top: 48px;
-    border: 1px solid rgba(115, 115, 115, 0.25);
   }
 
   &__product-card-options-block {
@@ -217,10 +207,10 @@ html, body {
     list-style-type: none;
   }
 
-  &__product-card-separator {
+  &__separator {
     color: $silver;
-    margin-bottom: 25px;
-    margin-top: 25px;
+    margin-bottom: 27px;
+    margin-top: 27px;
   }
 
   &__product-card-delivery {
@@ -260,8 +250,149 @@ html, body {
     border-radius: 4px;
   }
 
+  &__offer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    border-radius: 4px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 40px;
+    padding-top: 40px;
+    margin-bottom: 168px;
+    box-shadow: 0 1px 3px 0 rgba(115, 115, 115, 0.25);
+    background-color: $white;
+  }
+
+  &__offer-heading {
+    font-size: 20px;
+    font-weight: normal;
+    line-height: 1;
+  }
+
+  &__offer-components {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 27px;
+  }
+
+  &__offer-left {
+    display: flex;
+    flex-direction: column;
+    border-radius: 4px;
+    box-shadow: 0 10px 30px 0 rgba(55, 55, 55, 0.15);
+    padding: 24px;
+  }
+
+  &__offer-pictures {
+    display: inline-block;
+  }
+
+  &__offer-products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+
+  &__offer-list {
+    list-style-type: none;
+  }
+
+  &__offer-price {
+    display: block;
+  }
+
+  &__offer-logo {
+    border: solid 1px $silver;
+    padding: 25px 10px;
+    border-radius: 50%;
+    background-color: $white;
+    box-shadow: 0 3px 6px 0 rgba(55, 55, 55, 0.25);
+    margin-right: 18px;
+  }
+
+  &__offer-list--indent {
+    margin-right: 40px;
+  }
+
+  &__offer-info {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__offer-company {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+
+  &__offer-cost {
+    display: inline-block;
+  }
+
+  &__offer-text--big {
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 2;
+  }
+
+  &__offer-text--small {
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 1.7;
+  }
+
+  &__offer-button {
+    width: 100%;
+    border-radius: 4px;
+    background-color: $pink;
+    color: $white;
+    padding: 12px;
+    border: none;
+    margin-top: 20px;
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 1.5;
+  }
+
+  &__offer-more {
+    background-color: $light-blue;
+    padding: 16px;
+    border-radius: 4px;
+    text-align: center;
+    min-width: 100%;
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 1.5;
+    border: none;
+    margin-top: 24px;
+  }
+
+  &__product-pictures--indent {
+    margin-right: 14px !important;
+  }
+
+  &__product-pictures {
+    width: 58px;
+    height: 56px;
+    border-radius: 4px;
+    border: 1px solid rgba(115, 115, 115, 0.25);
+    margin-right: 8px;
+  }
+
   &__text--grey {
     color: $grey-font;
+  }
+
+  &__text--line-through {
+    text-decoration: line-through;
+  }
+
+  &__text--right {
+    text-align: right;
   }
 
   &__text--black {
@@ -290,8 +421,4 @@ html, body {
 
 ::selection {
   background-color: none;
-}
-
-.kek {
-
 }
