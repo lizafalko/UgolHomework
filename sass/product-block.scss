@@ -30,6 +30,13 @@
     margin-top: 27px;
   }
 
+  &__label {
+    font-size: 12px;
+    margin-left: 20px;
+    position: absolute;
+    margin-top: 8px;
+  }
+
   &__preview {
     display: flex;
     flex-direction: column;
@@ -71,7 +78,10 @@
   &__select {
     width: 100%;
     background-color: $light-blue;
-    padding: 16px;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 24px;
+    padding-bottom: 8px;
     border: none;
     border-radius: 4px;
     margin-bottom: 20px;
