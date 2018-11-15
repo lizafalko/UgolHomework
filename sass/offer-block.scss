@@ -1,0 +1,132 @@
+.offer-block {
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  border-radius: 4px;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-bottom: 40px;
+  padding-top: 40px;
+  margin-bottom: 168px;
+  box-shadow: 0 1px 3px 0 rgba(115, 115, 115, 0.25);
+  background-color: $white;
+
+  &__heading {
+    font-size: 20px;
+    font-weight: normal;
+    line-height: 1;
+  }
+
+  &__components {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 27px;
+  }
+
+  &__container {
+    display: flex;
+    flex-direction: column;
+    border-radius: 4px;
+    padding: 24px;
+    margin-bottom: 20px;
+  }
+
+  &__container--shadow {
+    box-shadow: 0 10px 30px 0 rgba(55, 55, 55, 0.15);
+    margin-right: 24px;
+  }
+
+  &__container--border {
+    border: solid 1px $silver;
+  }
+
+  &__pictures {
+    display: inline-block;
+  }
+
+  &__products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+
+  &__list {
+    list-style-type: none;
+  }
+
+  &__price {
+    display: block;
+  }
+
+  &__logo {
+    border: solid 1px $silver;
+    padding: 25px 10px;
+    border-radius: 50%;
+    background-color: $white;
+    box-shadow: 0 3px 6px 0 rgba(55, 55, 55, 0.25);
+    margin-right: 18px;
+  }
+
+  &__list--indent {
+    margin-right: 12px;
+  }
+
+  &__info {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    flex-grow: 2;
+    align-items: center;
+  }
+
+  &__company {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+
+  &__cost {
+    display: inline-block;
+  }
+
+  &__text--big {
+    font-size: 15px;
+    font-weight: normal;
+    line-height: 2;
+  }
+
+  &__text--small {
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 1.7;
+  }
+
+  &__button {
+    width: 100%;
+    border-radius: 4px;
+    background-color: $pink;
+    color: $white;
+    padding: 12px;
+    border: none;
+    margin-top: 20px;
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 1.5;
+  }
+
+  &__more {
+    background-color: $light-blue;
+    padding: 16px;
+    border-radius: 4px;
+    text-align: center;
+    min-width: 100%;
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 1.5;
+    border: none;
+    margin-top: 24px;
+  }
+}
