@@ -20,184 +20,49 @@ html, body {
   margin-right: 96px;
 }
 
-.main-block {
+.separator {
+  color: $silver;
+  margin-bottom: 27px;
+  margin-top: 27px;
+}
 
-  &__separator {
-    color: $silver;
-    margin-bottom: 27px;
-    margin-top: 27px;
-  }
+.separator-top {
+  margin-top: 100px;
+}
 
-  &__separator--top {
-    margin-top: 100px;
-  }
+.text-grey {
+  color: $grey-font;
+}
 
-  &__offer {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    border-radius: 4px;
-    padding-left: 40px;
-    padding-right: 40px;
-    padding-bottom: 40px;
-    padding-top: 40px;
-    margin-bottom: 168px;
-    box-shadow: 0 1px 3px 0 rgba(115, 115, 115, 0.25);
-    background-color: $white;
-  }
+.text-line-through {
+  text-decoration: line-through;
+}
 
-  &__offer-heading {
-    font-size: 20px;
-    font-weight: normal;
-    line-height: 1;
-  }
+.text-right {
+  text-align: right;
+}
 
-  &__offer-components {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    margin-top: 27px;
-  }
+.text-black {
+  color: $black-font;
+}
 
-  &__offer-container {
-    display: flex;
-    flex-direction: column;
-    border-radius: 4px;
-    padding: 24px;
-    margin-bottom: 20px;
-  }
+.link-style {
+  font-size: 16px;
+  font-weight: normal;
+  line-height: 2;
+  color: $blue;
+  text-decoration: none;
+}
 
-  &__offer-container--shadow {
-    box-shadow: 0 10px 30px 0 rgba(55, 55, 55, 0.15);
-    margin-right: 24px;
-  }
-
-  &__offer-container--border {
-    border: solid 1px $silver;
-  }
-
-  &__offer-pictures {
-    display: inline-block;
-  }
-
-  &__offer-products {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    margin-top: 20px;
-  }
-
-  &__offer-list {
-    list-style-type: none;
-  }
-
-  &__offer-price {
-    display: block;
-  }
-
-  &__offer-logo {
-    border: solid 1px $silver;
-    padding: 25px 10px;
-    border-radius: 50%;
-    background-color: $white;
-    box-shadow: 0 3px 6px 0 rgba(55, 55, 55, 0.25);
-    margin-right: 18px;
-  }
-
-  &__offer-list--indent {
-    margin-right: 12px;
-  }
-
-  &__offer-info {
-    margin-top: 10px;
-    display: flex;
-    justify-content: space-between;
-    flex-grow: 2;
-    align-items: center;
-  }
-
-  &__offer-company {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-  }
-
-  &__offer-cost {
-    display: inline-block;
-  }
-
-  &__offer-text--big {
-    font-size: 15px;
-    font-weight: normal;
-    line-height: 2;
-  }
-
-  &__offer-text--small {
-    font-size: 14px;
-    font-weight: normal;
-    line-height: 1.7;
-  }
-
-  &__offer-button {
-    width: 100%;
-    border-radius: 4px;
-    background-color: $pink;
-    color: $white;
-    padding: 12px;
-    border: none;
-    margin-top: 20px;
-    font-size: 16px;
-    font-weight: normal;
-    line-height: 1.5;
-  }
-
-  &__offer-more {
-    background-color: $light-blue;
-    padding: 16px;
-    border-radius: 4px;
-    text-align: center;
-    min-width: 100%;
-    text-decoration: none;
-    font-size: 16px;
-    line-height: 1.5;
-    border: none;
-    margin-top: 24px;
-  }
-
-  &__text--grey {
-    color: $grey-font;
-  }
-
-  &__text--line-through {
-    text-decoration: line-through;
-  }
-
-  &__text--right {
-    text-align: right;
-  }
-
-  &__text--black {
-    color: $black-font;
-  }
-
-  &__link-style {
-    font-size: 16px;
-    font-weight: normal;
-    line-height: 2;
-    color: $blue;
-    text-decoration: none;
-  }
-
-  &__text--pink {
-    color: $pink;
-    border-radius: 2px;
-    border: solid 1px #ff4058;
-    font-size: 9px;
-    font-weight: 500;
-    line-height: normal;
-    letter-spacing: 0.8px;
-    padding: 4px;
-  }
+.text-pink {
+  color: $pink;
+  border-radius: 2px;
+  border: solid 1px #ff4058;
+  font-size: 9px;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0.8px;
+  padding: 4px;
 }
 
 ::selection {
