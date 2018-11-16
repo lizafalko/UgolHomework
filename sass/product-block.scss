@@ -68,8 +68,12 @@
     align-items: flex-end;
   }
 
-  &__options {
+  &__options-list {
     display: block;
+    list-style-type: none;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    line-height: 1.5;
   }
 
   &__gallery {
@@ -77,7 +81,7 @@
     margin-top: 48px;
   }
 
-  &__options-block {
+  &__options {
     display: block;
     margin-right: 29px;
     margin-bottom: 32px;
@@ -86,14 +90,7 @@
     margin-left: 29px;
   }
 
-  &__options {
-    list-style-type: none;
-    margin-top: 15px;
-    margin-bottom: 5px;
-    line-height: 1.5;
-  }
-
-  &__select-block {
+  &__select-list {
     display: block;
   }
 

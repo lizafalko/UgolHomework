@@ -14,11 +14,11 @@
         <p class="modal-block__text text-grey">
           Постройте интерьер, выберите материалы и узнайте стоимость ремонта
         </p>
-        <button class="modal-block__button" type="submit"><span class="icon-white"></span>Построить интерьер</button>
+        <button class="modal-block__button" type="button"><span class="icon-white"></span>Построить интерьер</button>
       </section>
-      <section class="modal-block__close">
-        <span class="modal-block__close-element">x</span>
-        <img class="modal-block__logo" src="assets/img/logo.png" />
+      <section class="modal-block__crumbs">
+        <span class="modal-block__close">x</span>
+        <img class="modal-block__logo" src="assets/img/logo.png" alt=""/>
       </section>
     </div>
     <div class="container">
@@ -34,23 +34,23 @@
             <img class="product-block__img" src="assets/img/main-image.png" alt="" />
             <span class="product-block__search icon-black"></span>
           </div>
-          <div class="product-block__options-block">
-            <form>
-              <div class="product-block__select-block">
+          <div class="product-block__options">
+            <form class="product-block__form" name="product-block" method="POST">
+              <div class="product-block__select-list">
                 <label class="product-block__label text-grey">Размер</label>
                 <select class="product-block__select">
-                  <option>150x80</option>
-                  <option>120x50</option>
+                  <option selected value="150x80">150x80</option>
+                  <option value="120x50">120x50</option>
                 </select>
                 <label class="product-block__label text-grey">Цвет</label>
                 <select class="product-block__select">
-                  <option>Белый</option>
-                  <option>Чёрный</option>
+                  <option selected value="Белый">Белый</option>
+                  <option value="Чёрный">Чёрный</option>
                 </select>
               </div>
             </form>
             <a href="#" class="link-style">Все варианты исполнения</a>
-            <ul class="product-block__options text-black">
+            <ul class="product-block__options-list text-black">
               <li>Рекомендуемая толщина слоя: 5-15 мм</li>
               <li>Расход смеси: на 1 м² кладки (шов  10 мм, кладка в 1/2 кирпича) — 50 кг</li>
               <li>Расход смеси при слое 1 мм: 2 кг/м²</li>
@@ -150,7 +150,7 @@
                 </section>
               </div>
             </div>
-            <button class="offer-block__button" type="submit">Выбрать и настроить комплект</button>
+            <button class="offer-block__button" type="button">Выбрать и настроить комплект</button>
           </div>
           <div class="offer-block__container offer-block__container--border">
             <section class="offer-block__pictures">
@@ -178,7 +178,7 @@
               </section>
               <span class="text-black text-right">7 999 &#8381;</span>
             </div>
-            <button class="offer-block__button" type="submit">Выбрать и настроить комплект</button>
+            <button class="offer-block__button" type="button">Выбрать и настроить комплект</button>
           </div>
         </div>
         <button type="submit" class="offer-block__more text-black">Показать ещё 10 комплектов</button>

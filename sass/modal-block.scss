@@ -1,6 +1,7 @@
 .modal-block {
 
   display: flex;
+  justify-content: space-between;
   margin-left: 86px;
   margin-right: 86px;
   border-radius: 8px;
@@ -14,7 +15,6 @@
   border: 1px rgba(0, 0, 0, 0.15);
   position: absolute;
   width: 84%;
-  justify-content: space-between;
 
   &__heading {
     font-size: 22px;
@@ -23,7 +23,7 @@
     letter-spacing: normal;
   }
 
-  &__close-element {
+  &__close {
     color: $white;
     background-color: $grey;
     padding: 4px 8px;
