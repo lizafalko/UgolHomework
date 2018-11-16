@@ -1,3 +1,9 @@
+@media screen and (max-width: 1200px) {
+  .modal-block__logo {
+    display: none !important;
+  }
+}
+
 @media screen and (max-width: 1150px) {
   .product-block__options-block {
     max-width: 35% !important;
@@ -23,6 +29,15 @@
     display: none !important;
   }
 
+  .product-block__name {
+    text-align: center;
+    margin-top: 40px;
+  }
+
+  .product-block__preview {
+    padding-top: 0px !important;
+  }
+
   .product-block {
     padding-top: 0 !important;
     margin-top: 50px !important;
@@ -36,15 +51,6 @@
 @media screen and (max-width: 830px) {
   .product-block__options-block {
     max-width: 100% !important;
-  }
-
-  .product-block__name {
-    text-align: center;
-    margin-top: 40px;
-  }
-
-  .product-block__preview {
-    padding-top: 0px !important;
   }
 
   .product-block__price-container {
